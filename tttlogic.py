@@ -76,7 +76,7 @@ def getCurrentState(board):
         return board['1']
     elif board['2'] == board['5'] == board['8'] != ' ':
         return board['2']
-    elif board['3'] == board['6'] == board['6'] != ' ':
+    elif board['3'] == board['6'] == board['9'] != ' ':
         return board['3']
     elif board['1'] == board['5'] == board['9'] != ' ':
         return board['1']
