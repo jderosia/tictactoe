@@ -11,3 +11,5 @@ player2Name = 'Lucas'
 player1Turn = False
 
 player1Symbol = tttlogic.assignSymbol(player1Name, player2Name, player1Turn)
+
+print("New Statement")
